@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+ <meta charset="utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1" />
+ <title> Chinedu Michael | Portfolio</title>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+ <meta name="description" content="Simple, modern one-page portfolio website." />
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="wrap">
+   <header>
+     <div class="logo">
+       <div class="mark">CM</div>
+       <div>
+         <div style="font-weight:700">Chinedu Michael </div>
+         <div style="font-size:12px;color:var(--muted)">Product Designer & Frontend Dev</div>
+       </div>
+     </div>
+     <nav>
+       <a href="#projects">Projects</a>
+       <a href="#about">About</a>
+       <a href="#contact">Contact</a>
+     </nav>
+   </header>
+
+
+   <section class="hero">
+     <div class="panel intro">
+       <h1>Designing thoughtful interfaces & delightful experiences.</h1>
+       <p>I build product UI and front-end apps that prioritize clarity, accessibility, and delightful micro-interactions. I’m currently available for freelance and contract work.</p>
+       <div class="cta">
+         <a class="btn" href="#contact">Hire me</a>
+         <a class="btn alt" href="#projects">See projects</a>
+       </div>
+
+
+       <div style="margin-top:20px;display:flex;gap:18px;align-items:center">
+         <div style="flex:1">
+           <div style="font-size:13px;color:var(--muted);margin-bottom:6px">Selected tools</div>
+           <div style="display:flex;gap:8px;flex-wrap:wrap">
+             <span class="chip">Figma</span>
+             <span class="chip">React</span>
+             <span class="chip">TypeScript</span>
+             <span class="chip">Tailwind</span>
+           </div>
+         </div>
+         <div style="text-align:right;color:var(--muted);font-size:13px">Based in Enugu, Nigeria</div>
+       </div>
+     </div>
+
+
+     <aside class="panel profile">
+       <div class="avatar">
+         <img src="/images/chinedu.png" alt="avatar">
+       </div>
+       <h3>Chinedu Michael</h3>
+       <div style="color:var(--muted);font-size:14px">Senior Product Designer</div>
+       <div class="skills">
+         <span class="chip">UI</span>
+         <span class="chip">UX</span>
+         <span class="chip">Frontend</span>
+         <span class="chip">Accessibility</span>
+       </div>
+       <div style="width:100%">
+         <div style="display:flex;gap:10px;justify-content:center;margin-top:8px">
+           <a class="chip" href="#projects">Portfolio</a>
+           <a class="chip" href="#contact">Contact</a>
+         </div>
+       </div>
+     </aside>
+   </section>
+
+
+   <section id="projects">
+     <div style="display:flex;justify-content:space-between;align-items:end;margin-bottom:12px">
+       <div>
+         <h2 style="margin:0">Selected projects</h2>
+         <div style="color:var(--muted);font-size:13px;margin-top:4px">A small selection of recent work</div>
+       </div>
+       <div style="font-size:13px;color:var(--muted)">3 projects — more on request</div>
+     </div>
+
+
+     <div class="projects-grid">
+       <article class="project">
+         <img src="images/trading.png" alt="project-1">
+         <div class="meta">
+           <h4>Finance dashboard</h4>
+           <p>Design and build of a lightweight analytics dashboard for SMBs. Focus: data clarity and responsive charts.</p>
+         </div>
+       </article>
+
+
+       <article class="project">
+         <img src="https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=2d1c3b8f4d6d7a8c9b1c2e3f4a5b6c7d" alt="project-2">
+         <div class="meta">
+           <h4>Mobile onboarding</h4>
+           <p>Redesigned onboarding experience that increased activation by simplifying flows and microcopy.</p>
+         </div>
+       </article>
+
+
+       <article class="project">
+         <img src="images/UIUX.png" alt="project-3">
+         <div class="meta">
+           <h4>E‑commerce concept</h4>
+           <p>Concept UI for a modern commerce experience — product pages, cart, and checkout micro-interactions.</p>
+         </div>
+       </article>
+     </div>
+   </section>
+
+
+   <section id="about" style="margin-top:30px">
+     <div class="panel">
+       <h3 style="margin-top:0">About</h3>
+       <p style="color:var(--muted)">I’m a product-focused designer and frontend developer with 6+ years of experience shipping consumer and B2B products. I care deeply about accessibility, clean code, and collaborative design systems. When I’m not building interfaces I enjoy photography and cycling.</p>
+     </div>
+   </section>
+
+
+   <section id="contact" style="margin-top:20px">
+     <div style="display:flex;gap:18px;flex-direction:column">
+       <div style="display:flex;justify-content:space-between;align-items:end">
+         <h3 style="margin:0">Get in touch</h3>
+         <div style="color:var(--muted);font-size:13px">Email: <strong style="color:#fff"> ayaloguchinedu003@gmail.com</strong></div>
+       </div>
+
+
+       <div class="panel">
+         <form class="contact" onsubmit="event.preventDefault(); alert('Thanks! This demo form does not send messages.');">
+           <div class="field">
+             <label style="font-size:13px;color:var(--muted);margin-bottom:6px">Your name</label>
+             <input type="text" placeholder="Your full name" />
+           </div>
+           <div class="field">
+             <label style="font-size:13px;color:var(--muted);margin-bottom:6px">Email</label>
+             <input type="email" placeholder="you@company.com" />
+           </div>
+
+
+           <div style="grid-column:1 / -1;display:flex;flex-direction:column">
+             <label style="font-size:13px;color:var(--muted);margin-bottom:6px">Message</label>
+             <textarea placeholder="Tell me about your project..."></textarea>
+           </div>
+
+
+           <div style="grid-column:1 / -1;display:flex;justify-content:flex-end">
+             <button class="btn" type="submit">Send message</button>
+           </div>
+         </form>
+       </div>
+     </div>
+   </section>
+
+
+   <footer>
+     <div>© <span id="year"></span> Chinedu Michael — Built with ❤️</div>
+   </footer>
+ </div>
+
+
+ <script>
+   document.getElementById('year').textContent = new Date().getFullYear();
+   // Smooth scrolling for anchor links
+   document.querySelectorAll('a[href^="#"]').forEach(a=>{
+     a.addEventListener('click', e=>{
+       const target = document.querySelector(a.getAttribute('href'));
+       if(target){e.preventDefault();target.scrollIntoView({behavior:'smooth',block:'start'});}
+     })
+   })
+ </script>
+</body>
+</html>
+
+
